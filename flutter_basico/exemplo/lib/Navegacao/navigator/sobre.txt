@@ -1,0 +1,3 @@
+formas de navegar
+1-Navigator: Vamos fazendo o push das telas uma em cima da outra depois fazemos o pop para remover
+

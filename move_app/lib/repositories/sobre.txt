@@ -1,0 +1,9 @@
+Repository Pattern.
+
+Oque é o Repository?
+	
+vamo aplicar ele toda vez que queremos buscar um dado de 
+algum repositorio, não importa onde os dados estão, 
+não importa onde esta o repositorio, ele vai buscar em 
+qualquer lugar.
+

@@ -1,0 +1,33 @@
+//para conseguir fazer o uso de API temos que instalar o http, o http é indicao por grandes empresas e fora do brasil
+//também temos uma segunda opcao que é usar o dio, ele é mais usado. dio é mais facil de usar mas não é indicado para coisas grandes
+
+
+
+
+
+//como era antes de mudar para listenable
+
+/*  body: Center(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+               // child: ValueListenableBuilder<List<Post>>(
+                child: ValueListenableBuilder<List<Post>>(
+                  valueListenable: posts,
+                  builder: (_, value, __) => ListView.builder(
+                    physics:
+                        NeverScrollableScrollPhysics(), //desabilita a rolagem da lista
+                    shrinkWrap:
+                        true, //para o tamanho so oculpar o tamanho da lista que ela tiver
+                    itemCount: value.length,
+                    itemBuilder: (context, index) => ListTile(
+                      title: Text(value[index].title),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),*/
