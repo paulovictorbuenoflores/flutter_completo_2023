@@ -12,8 +12,7 @@ class _EstruturaPageState extends State<EstruturaPage> {
   void _getListagemAPI() {
     http.get(Uri.https('api.themoviedb.org', '/4/list/1'), headers: {
       'content-type': 'application/json;charset=utf-8',
-      'authorization':
-          'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYTJlZTEyZmIzZmUxZDIzYmE2ZTEzZTYyMDg4ZTU5YiIsInN1YiI6IjY0N2IzOGY1Y2Y0YjhiMDEwMzFlNDNkMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8txYqf4LRuHdXtkRC3-zFe8CdIp-M_vRRlNtJrN-0VU'
+      'authorization': 'Bearer '
     }).then((value) => print(value.body));
   }
 
